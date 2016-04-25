@@ -1,0 +1,19 @@
+{
+    "name": "baconmanager/packagist-bundle",
+    "description": "This bundle of symfony2 to integration packagist API",
+    "keywords": ["Generator Bundle"],
+    "type": "symfony-bundle",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name": "Adan Felipe Medeiros",
+            "email": "adan.grg@gmail.com"
+        }
+    ],
+	"require" : {
+		"guzzlehttp/guzzle": "6.2.0"
+	},
+    "autoload": {
+        "psr-4": { "Bacon\\Bundle\\PackagistBundle\\": "" }
+    }
+}

@@ -1,0 +1,4 @@
+services:
+    bacon_packagist.api:
+        class: Bacon\Bundle\PackagistBundle\Api\Packagist
+        arguments: ["%bacon_packagist.api.base_url%"]
